@@ -1,0 +1,182 @@
+.collapse navbar-collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.container{
+    background: linear-gradient(45deg, #ddd6ca, #afc7bf, #9fbcc2);
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+.display-4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 62px;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+.active{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    background-color: #ddd6ca;
+}
+
+
+.dropdown-menu {
+    overflow: hidden;
+    background-color: #ddd6ca;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown-toggle {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #b0b585;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+   
+    background-color: #ddd6ca;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: #ddd6ca;
+
+}
+
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    float: right;
+   background-color: #ddd6ca ;
+}
+
+.fa {
+    padding: 6px;
+    font-size: 30px;
+    width: 21px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px 2px;
+    border-radius: 50%;
+    color: white;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: rgb(35, 63, 124);
+    color: white;
+
+  }
+  
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #135b68;
+    color: white;
+  }
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 62px; 
+}
+
+img{
+    max-width: 242px;
+    height: auto;
+
+}
+
+.wdp{
+    border-color: black;
+        border-width: 10px;
+        border-style: solid;
+        border-radius:25%;
+        grid-column-start: 1;
+        grid-column-end: span col4-start;
+        grid-row-start: 2;
+        grid-row-end: span 2;
+}
+
+body{
+    padding-top: 70px;
+}
+.bio{
+    background-color: #ddd6ca;
+    float: right;
+    grid-area: 1 / col4-start / last-line / 6;
+}
+
