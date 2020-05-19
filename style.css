@@ -1,0 +1,72 @@
+
+
+.fa {
+    padding: 7px;
+    font-size: 16px;
+    width: 28px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 4px;
+    border-radius: 50%;
+    color: white;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: rgb(17, 76, 204);
+    color: white;
+
+  }
+  
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #509eac;
+    color: white;
+  }
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 62px; 
+}
+
+img{
+    max-width: 242px;
+    height: auto;
+
+}
+
+.wdp{
+    border-color: black;
+        border-width: 10px;
+        border-style: solid;
+        border-radius:25%;
+        grid-column-start: 1;
+        grid-column-end: span col4-start;
+        grid-row-start: 2;
+        grid-row-end: span 2;
+}
+
+.jumbotron{
+  background-image: linear-gradient(45deg, #ddd6ca, #afc7bf, #9fbcc2);
+  text-align: center;
+}
+
+
+.plant{
+    max-width: 286px;
+    height: 260px;
+    
+  }
+
+
+footer{
+  background-color: #ddd6ca;
+}
+
