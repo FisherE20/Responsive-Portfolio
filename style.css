@@ -82,6 +82,12 @@ img{
     
   }
 
+@media screen and (max-width: 1200px){
+  .bio{
+    padding: 44px;
+  }
+}
+
 .footer{
     position: fixed;
     left: 0;
