@@ -30,7 +30,7 @@ In this same regard for the portfolio page. I chose to add images to the card di
 ---
 
 
-#### Technologie
+#### Technologies
 
 - HTML
 - CSS
