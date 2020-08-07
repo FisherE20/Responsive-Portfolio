@@ -1,7 +1,7 @@
 # Responsive-Portfolio
 
 
-![Project Image](C:\Users\bird_\Class\weather-dashboard\Assets\Images\weather)
+![Project Image](Assets/screenshot.png)
 
 >Website thats contains out portfolio and resume
 
